@@ -1,0 +1,161 @@
+/* Font Colors */
+
+.white{
+	color: white;
+}
+.peterriver{
+	color: #3498db;
+}
+.belizehole{
+	color: #2980b9;
+}
+.turquoise{
+	color: #1abc9c;
+}
+.seagreen{
+	color: #16a085;
+}
+.emerald{
+	color: #2ecc71;
+}
+.nephritis{
+	color: #27ae60;
+}
+.amethyst{
+	color: #9b59b6;
+}
+.wisteria{
+	color: #8e44ad;
+}
+.wetasphalt{
+	color: #34495e;
+}
+.midnightblue{
+	color: #2c3e50;
+}
+.sunflower{
+	color: #f1c40f;
+}
+.orange{
+	color: #f39c12;
+}
+.carrot{
+	color: #e67e22;
+}
+.pumpkin{
+	color: #d35400;
+}
+.alizarin{
+	color: #e74c3c;
+}
+.pomegranate{
+	color: #c0392b;
+}
+.clouds{
+	color: #ecf0f1;
+}
+.silver{
+	color: #bdc3c7;
+}
+.concrete{
+	color: #95a5a6;
+}
+.asbestos{
+	color: #7f8c8d;
+}
+.royalblue{
+	color: #4169e1;
+}
+.black{
+	color: black;
+}
+.yellow{
+	color: #e1b941;
+}
+.violet{
+	color: #3F51B5;
+}
+.pink{
+	color: #C53F3B;
+}
+
+/* Background Color */
+
+.whitebg{
+	background: white;
+}
+.peterriverbg{
+	background: #3498db;
+}
+.belizeholebg{
+	background: #2980b9;
+}
+.turquoisebg{
+	background: #1abc9c;
+}
+.seagreenbg{
+	background: #16a085;
+}
+.emeraldbg{
+	background: #2ecc71;
+}
+.nephritisbg{
+	background: #27ae60;
+}
+.amethystbg{
+	background: #9b59b6;
+}
+.wisteriabg{
+	background: #8e44ad;
+}
+.wetasphaltbg{
+	background: #34495e;
+}
+.midnightbluebg{
+	background: #2c3e50;
+}
+.sunflowerbg{
+	background: #f1c40f;
+}
+.orangebg{
+	background: #f39c12;
+}
+.carrotbg{
+	background: #e67e22;
+}
+.pumpkinbg{
+	background: #d35400;
+}
+.alizarinbg{
+	background: #e74c3c;
+}
+.pomegranatebg{
+	background: #c0392b;
+}
+.cloudsbg{
+	background: #ecf0f1;
+}
+.silverbg{
+	background: #bdc3c7;
+}
+.concretebg{
+	background: #95a5a6;
+}
+.asbestosbg{
+	background: #7f8c8d;
+}
+.royalbluebg{
+	background: #4169e1;
+}
+.blackbg{
+	background: black;
+}
+.yellowbg{
+	background: #e1b941;
+}
+.violetbg{
+	background: #3F51B5;
+}
+.pinkbg{
+	background: #C53F3B;
+}

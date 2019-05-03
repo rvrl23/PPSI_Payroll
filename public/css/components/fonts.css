@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Do Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.dohyeon{
+	font-family: 'Do Hyeon', sans-serif;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.ubuntu{
+	font-family: 'Ubuntu', sans-serif;
+}
+.poppins{
+	font-family: 'Poppins', sans-serif;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.segoeui{
+	font-family: 'segoe ui';
+}
+.segoeui-light{
+	font-family: 'segoe ui light';
+}
+
+
+.thin{
+	font-style: 'thin', sans-serif;
+}
+.thin-italic{
+	font-style: 'italic', sans-serif;
+}
+.extra-light{
+	font-style: 'extra-light', sans-serif;
+}
+.extra-light-italic{
+	font-style: 'extra-light italic', sans-serif;
+}
+.light{
+	font-style: 'light', sans-serif;
+}
+.light-italic{
+	font-style: 'light italic', sans-serif;
+}
+.medium{
+	font-style: 'medium', sans-serif;
+}
+.medium-italic{
+	font-style: 'medium italic', sans-serif;
+}
+.semi-bold{
+	font-style: 'semi-bold', sans-serif;
+}
+.semi-bold-italic{
+	font-style: 'semi-bold italic', sans-serif;
+}
+.bold{
+	font-style: 'bold', sans-serif;
+}
+.bold-italic{
+	font-style: 'bold italic', sans-serif;
+}
+.extra-bold{
+	font-style: 'extra-bold', sans-serif;
+}
+.extra-bold-italic{
+	font-style: 'extra-bold italic', sans-serif;
+}
+.black{
+	font-style: 'black', sans-serif;
+}
+.black-italic{
+	font-style: 'black italic', sans-serif;
+}
+
+.xx-small{
+	font-size: xx-small;
+}
+.x-small{
+	font-size: x-small;
+}
+.small{
+	font-size: small;
+}
+.medium{
+	font-size: medium;
+}
+.large{
+	font-size: large;
+}
+.x-large{
+	font-size: x-large;
+}
+.xx-large{
+	font-size: xx-large;
+}
+.smaller{
+	font-size: smaller;
+}
+.larger{
+	font-size: larger;
+}
+.initial{
+	font-size: initial;
+}
+.inherit{
+	font-size: inherit;
+}
+
+
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+.center{
+	text-align: center;
+}
+
+/*.triangle{
+	height: 300px;
+	width: 300px;
+	background: linear-gradient(
+    to right bottom,
+    rgba(126,213,111,0.8),
+    rgba(40,100,131,0.8),
+    red
+	);
+	clip-path: polygon(50% 0, 0 50%, 0% 100%, 100% 0);
+}
+*/
