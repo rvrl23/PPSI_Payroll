@@ -75,11 +75,6 @@ Dashboard
 	
 </div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.2/echarts-en.min.js" charset="utf-8"></script>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<?php echo $chart->script(); ?>
-
-	<?php echo $chart2->script(); ?>
 
 
 <?php $__env->stopSection(); ?>
@@ -88,14 +83,12 @@ Dashboard
 <?php $__env->startSection('srcperpage'); ?>
 <script>
 	$(document).ready(function() {
-
 	  $('#pendingTable, #LogTable').DataTable(
-
 	    {
 
 	        "dom": '<"right monsterrat col-xs-3 col-xs-offset-9"f>'
 	        +'rt <"bottom segoeui-light col-xs-5 "i> <"bottom segoeui-light col-xs-5 col-xs-offset-2"p><"clear">'
-	  
+
 	    }
 	  
 	  );
@@ -107,5 +100,7 @@ Dashboard
 	  
 	});
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.2/echarts-en.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.payroll_layouts', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>

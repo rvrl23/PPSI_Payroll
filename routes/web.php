@@ -19,6 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+
 Route::resource('dashboard','DashboardController');
 Route::resource('employee','EmployeeController');
 Route::resource('payroll','PayrollController');

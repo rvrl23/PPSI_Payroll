@@ -24,9 +24,14 @@ class CreateAttendancesTable extends Migration
             $table->time('break_in');
             $table->time('break_out');
             $table->time('late');
+            $table->time('undertime');
             $table->time('total_today');
             $table->string('status');
             $table->string('date_status');
+            $table->string('grace_period');
+            $table->time('last_time');
+            $table->string('day');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

@@ -75,10 +75,9 @@ Dashboard
 	
 </div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.2/echarts-en.min.js" charset="utf-8"></script>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	{!! $chart->script() !!}
-	{!! $chart2->script() !!}
+{{-- 	
+	 {!! $chart->script() !!}
+	{!! $chart2->script() !!}  --}}
 
 @endsection
 
@@ -86,14 +85,12 @@ Dashboard
 @section('srcperpage')
 <script>
 	$(document).ready(function() {
-
 	  $('#pendingTable, #LogTable').DataTable(
-
 	    {
 
 	        "dom": '<"right monsterrat col-xs-3 col-xs-offset-9"f>'
 	        +'rt <"bottom segoeui-light col-xs-5 "i> <"bottom segoeui-light col-xs-5 col-xs-offset-2"p><"clear">'
-	  
+
 	    }
 	  
 	  );
@@ -105,4 +102,6 @@ Dashboard
 	  
 	});
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.2/echarts-en.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 @endsection

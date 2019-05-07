@@ -30,4 +30,12 @@ class HomeController extends Controller
     {
         return view('testing');
     }
+    
+    public function logins(){
+        return view('login');
+    }
+
+    public function registers(){
+        return view('register');
+    }
 }
